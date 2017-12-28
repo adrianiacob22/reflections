@@ -1,0 +1,11 @@
+During this first Lesson 
+ - I learned how to setup git environment.
+ - I also learned how to use basic git commands
+	- git clone --> used to clone a git repository - eiter local or remote
+	- git diff --> used to view differences between git commits
+	- git log --> used to see git logs, basically to list git commits and their commentsin order to help debugging
+	- git checkout --> used to switch to another commit (older or newer) in order to see what changed and how
+ 	- git commit --> used to commit the update done 
+
+Also, I had to debug some issues in an example code.
+All actions were done using git commands above.
