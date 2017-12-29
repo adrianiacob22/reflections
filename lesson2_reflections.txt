@@ -19,6 +19,31 @@ When changes are in stage area, they also can be verified locally.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are usefull when I need to label the commits and for sure when I start multiple separated projects/versions of the same code.
+For example run the following actions in parallel: 
+ - create a easier version of a game
+ - fix bugs
+ - add a specific language
+ - add new features
+They can be merged at the end
+
+To list current branches. The starred branch is the current branch.
+ git branch
+* master
+To create a new branch named easy-mode:
+adrian (master) asteroids $ git branch easy-mode
+adrian (master) asteroids $ git branch
+  easy-mode
+* master
+To switch to another branch. In this case the newly created branch:
+adrian (master) asteroids $ git checkout easy-mode
+Switched to branch 'easy-mode'
+adrian (easy-mode) asteroids $ git branch
+* easy-mode
+  master
+adrian (easy-mode) asteroids $ 
+
+
 
 How do the diagrams help you visualize the branch structure?
 
