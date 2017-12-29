@@ -90,4 +90,5 @@ What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 It may remove some lines which were deleted by one contributor, but maybe they are needed by
  another.
+Automatic merge can run into conflicts, so it will reguire manual intervention.
 
