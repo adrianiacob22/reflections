@@ -10,6 +10,9 @@ Staging area is not persistent. it can be easily reverted back without keeping a
 How can you use the staging area to make sure you have one commit per logical
 change?
 Use "git add" to add a file to staging area that you will be able to commit later.
+Staging area is a copy of the most recent commit, until I add changes to it.
+To compare Staging area with theworking directory use git diff with no arguments.
+git diff
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
