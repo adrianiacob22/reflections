@@ -43,9 +43,19 @@ adrian (easy-mode) asteroids $ git branch
   master
 adrian (easy-mode) asteroids $ 
 
+git log --graph --oneline
+
+To create and checkout in the same time to a new branch:
+git checkout -b new_branch_name
+
+This helps when you have a commit which is not included in any branch.
 
 
 How do the diagrams help you visualize the branch structure?
+git log --graph --oneline --> will generate a diagram with the commits per branch.
+
+Diagrams helps to understand how the project evolved per each branch and how it can be merged.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
