@@ -41,3 +41,7 @@ git remote add origin https://url/path
 git push origin master
 
  - this will push to the remote origin, which has my remote repo added, the local branch master.
+
+git pull origin master
+
+ - this will update local repository (master) with the data which has been added on the remote repository (origin)
