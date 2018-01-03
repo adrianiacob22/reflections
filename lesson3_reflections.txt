@@ -1,0 +1,16 @@
+Lesson 3
+When would you like to create a remote repository rather than keeping it local?
+  I would create a remote repository when more users are contributing to the same work.
+  I would also create one when I need to share it with other people.
+
+List remote repos
+git remote
+
+Add remote repos
+git remote add origin https://url/path
+
+ - origin is the name of the remote I want to push
+
+git push origin master
+
+ - this will push to the remote origin, which has my remote repo added, the local branch master.
